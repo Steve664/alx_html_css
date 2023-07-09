@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+header {
+  border-bottom: 2px solid #0b0b0b;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+  background-color: #fff;
+  color: #333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
